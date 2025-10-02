@@ -25,15 +25,8 @@ This repo does *not* contain plaintext solutions or passwords.
 Password files (if present) are encrypted with a passphrase and stored under passwords/.  
 *Do not attempt to use these to bypass the Bandit wargame* — they are for my personal archival record only.
 
-To decrypt a file locally:
-bash
-openssl enc -d -aes-256-cbc -pbkdf2 -iter 100000 -in level-01.enc -out level-01 -pass pass:"YOUR_PASSPHRASE"
-
-
 ---
 
 ## 📣 Disclaimer
 
 I respect OverTheWire's rules — no spoilers or plaintext passwords are published here. This repository is a learning journal and a showcase of the techniques I practiced.
-
-README generated automatically.
