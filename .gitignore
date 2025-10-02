@@ -1,0 +1,6 @@
+# Ignore local sensitive backups
+passwords_backup_*
+
+# Ignore system files
+.DS_Store
+*.swp
